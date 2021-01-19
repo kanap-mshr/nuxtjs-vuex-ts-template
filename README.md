@@ -1,41 +1,20 @@
-
 # template-pj
-
-- これは、テンプレートプロジェクトです
-
----
 
 ## Build Setup
 
 ```bash
-# モジュールインストール
-yarn install
+# install dependencies
+$ yarn install
 
-# ローカルで起動
-yarn dev
+# serve with hot reload at localhost:3000
+$ yarn dev
 
-# buildとstart
-yarn build
-yarn start
+# build for production and launch server
+$ yarn build
+$ yarn start
 
-# 静的なウェブアプリケーションを生成
-yarn generate
+# generate static project
+$ yarn generate
 ```
 
-- 参考: [Nuxt.js docs](https://nuxtjs.org)
-
----
-
-## nuxt(vuex)のtypescript化への道のり
-
-- 前提
-  - 型推論が100%完璧ではないが完璧を目指すのは茨の道、とのこと。
-  - ある程度妥協して、まあ使えるよね、程度の環境構築を以下に示す
-
-- Nuxtプロジェクトの生成
-
-```bash
-npx create-nuxt-app <PJ_NAME>
-```
-
-
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
